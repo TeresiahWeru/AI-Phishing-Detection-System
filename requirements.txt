@@ -1,5 +1,5 @@
 streamlit
 pandas
-numpy
-scikit-learn
-sqlite3
+numpy==1.26.4  # Pin a stable version for numerical core
+scipy==1.13.1  # Pin a stable version for scientific computing
+scikit-learn==1.4.2 # Pin a recent, stable version of sklearn
